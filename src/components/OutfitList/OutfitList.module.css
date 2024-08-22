@@ -1,0 +1,57 @@
+.wrapper{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.oreo {
+  cursor: pointer;
+}
+
+.level0 {
+  font-size: 20px;
+  display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
+  align-items: center; /* Выравниваем по центру по вертикали */
+  border-radius: 8px;
+  padding: 4px; /* Добавляем дополнительное пространство справа при необходимости */
+}
+
+
+.level1 {
+  display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
+  align-items: center; /* Выравниваем по центру по вертикали */
+  border-radius: 5px;
+  padding: 4px; /* Добавляем дополнительное пространство справа при необходимости */
+}
+
+.level2 {
+  display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
+  align-items: center; /* Выравниваем по центру по вертикали */
+  border-radius: 5px;
+  padding: 4px; /* Добавляем дополнительное пространство справа при необходимости */
+}
+
+
+/* Добавьте стили для других уровней по необходимости */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon {
+  margin-left: 8px; /* Расстояние между текстом и иконкой */
+  vertical-align: middle; /* Выравнивание иконки по середине текста */
+}
+
+
+.level0:hover{
+  color: rgb(98, 98, 98);
+}
+
+.level1:hover{
+  color: rgb(98, 98, 98);
+}
+
+.level2:hover{
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,24 @@
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.mesto{
+    display: flex;
+    justify-content: center;
+    padding: 0 250px;
+    margin-top: 50px;
+}
+
+.pole{
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    padding-left: 10px;
+}
+
+.pole:focus{
+    border: 1px solid #707070;
+    outline: none;
+}

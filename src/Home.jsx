@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation  } from 'react-router-dom';
 import React from 'react';
 import { Navbar } from './components/Navbar/Navbar';
-import { MainMenu } from './components/MainMenu/MainMenu';
+import { MainVmeste } from './MainVmeste';
 
 export const Home = () => {
 
@@ -12,7 +12,7 @@ export const Home = () => {
         <>
         {!hideNavbarPaths.includes(location.pathname) && <Navbar />}
         <Routes>
-            <Route path='/' element={<MainMenu/>} />
+            <Route path='/' element={<MainVmeste/>} />
         </Routes>
         </>
     );

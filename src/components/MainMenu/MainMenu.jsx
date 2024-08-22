@@ -1,7 +1,11 @@
+import style from './MainMenu.module.css';
+
 export function MainMenu(){
-    return(
-        <div>
-            <h1>POdgffdgP</h1>
+
+  
+    return (
+        <div className={style.body}>
+            
         </div>
-    )
-}
+    );
+  }
