@@ -2,6 +2,8 @@ import { Routes, Route, useLocation  } from 'react-router-dom';
 import React from 'react';
 import { Navbar } from './components/Navbar/Navbar';
 import { MainVmeste } from './MainVmeste';
+import { Login } from './components/Login/Login';
+
 
 export const Home = () => {
 
@@ -13,6 +15,7 @@ export const Home = () => {
         {!hideNavbarPaths.includes(location.pathname) && <Navbar />}
         <Routes>
             <Route path='/' element={<MainVmeste/>} />
+            <Route path='Login' element={<Login/>} />
         </Routes>
         </>
     );

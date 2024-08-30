@@ -76,13 +76,13 @@
 }
 
 .lineWithShadow {
-    width: 100vw; /* Линия на всю ширину экрана */
-    height: 2px; /* Высота линии */
-    background-color: black; /* Цвет линии */ /* Тень под линией */
-    position: relative; /* Для позиционирования */
+    width: 100vw;
+    height: 2px;
+    background-color: black;
+    position: relative;
     left: 50%;
-    transform: translateX(-50%); /* Центрируем линию по экрану */
-    margin-top: 5px; /* Отступ сверху, чтобы линия не прилипала к элементам выше */
+    transform: translateX(-50%);
+    margin-top: 5px;
 }
 
 

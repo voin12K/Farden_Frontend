@@ -52,93 +52,141 @@ export const OutfitList = () => {
       name: 'Clothes',
       children: [
         {
-          name: 'Подэлемент 1.1',
+          name: 'Outerwear',
           children: [
-            { name: 'Подэлемент 1.1.1' },
-            { name: 'Подэлемент 1.1.2' }
-          ]
-        },
-        { 
-          name: 'Подэлемент 1.2',
-          children: [
-            { name: 'Подэлемент 1.2.1' },
-            { name: 'Подэлемент 1.2.2' }
-          ] }
-      ]
-    },
-    {
-      name: 'Shoes',
-      children: [
-        {
-          name: 'Подэлемент 2.1',
-          children: [
-            { name: 'Подэлемент 2.1.1' },
-            { name: 'Подэлемент 2.1.2' }
+            { name: 'Coats' },
+            { name: 'Jackets' },
+            { name: 'Parkas' },
+            { name: 'Puffer Jackets' },
+            { name: 'Trench Coats' },
+            { name: 'Vests' },
+            { name: 'Windbreakers' },
+            { name: 'Raincoats' }
           ]
         },
         {
-          name: 'Подэлемент 2.2',
+          name: 'Tops',
           children: [
-            { name: 'Подэлемент 2.2.1' },
-            { name: 'Подэлемент 2.2.2' }
+            {
+              name: 'T-Shirts',
+              children: [
+                { name: 'Basic' },
+                { name: 'Striped' },
+                { name: 'Printed' }
+              ]
+            },
+            {
+              name: 'Shirts',
+              children: [
+                { name: 'Dress Shirts' },
+                { name: 'Short Sleeve' },
+                { name: 'Long Sleeve' },
+                { name: 'Polos' }
+              ]
+            },
+            {
+              name: 'Sweaters & Cardigans',
+              children: [
+                { name: 'Knit' },
+                { name: 'Light' },
+                { name: 'Heavy' }
+              ]
+            },
+            {
+              name: 'Blouses',
+              children: [
+                { name: 'Solid' },
+                { name: 'Patterned' }
+              ]
+            },
+            {
+              name: 'Hoodies & Sweatshirts',
+              children: [
+                { name: 'With Hood' },
+                { name: 'Without Hood' }
+              ]
+            }
           ]
         }
       ]
     },
     {
+      name: 'Bottoms',
+      children: [
+        {
+          name: 'Pants',
+          children: [
+            { name: 'Jeans' },
+            { name: 'Chinos' },
+            { name: 'Dress Pants' },
+            { name: 'Joggers' }
+          ]
+        },
+        { name: 'Shorts' },
+        {
+          name: 'Skirts',
+          children: [
+            { name: 'Mini' },
+            { name: 'Midi' },
+            { name: 'Maxi' }
+          ]
+        },
+        { name: 'Leggings' }
+      ]
+    },
+    {
+      name: 'Sleepwear & Loungewear',
+      children: [
+        {
+          name: 'Pajamas',
+          children: [
+            { name: 'Sets' },
+            { name: 'Nightgowns' }
+          ]
+        },
+        { name: 'Robes' },
+        { name: 'Loungewear Sets' }
+      ]
+    },
+    {
+      name: 'Sportswear',
+      children: [
+        { name: 'Athletic Sets' },
+        { name: 'Workout Tops' },
+        { name: 'Athletic Shorts' },
+        { name: 'Fitness Leggings' },
+        { name: 'Sports Bras' },
+        { name: 'Sneakers & Athletic Shoes' }
+      ]
+    },
+    {
+      name: 'Footwear',
+      children: [
+        { name: 'Dress Shoes' },
+        { name: 'Boots' },
+        { name: 'Sneakers' },
+        { name: 'Sandals' },
+        { name: 'Flats' },
+        { name: 'Loafers' }
+      ]
+    },
+    {
       name: 'Accessories',
       children: [
+        { name: 'Scarves & Shawls' },
+        { name: 'Gloves & Mittens' },
+        { name: 'Hats & Headwear' },
+        { name: 'Belts' },
         {
-          name: 'Подэлемент 1.1',
+          name: 'Bags',
           children: [
-            { name: 'Подэлемент 1.1.1' },
-            { name: 'Подэлемент 1.1.2' }
+            { name: 'Backpacks' },
+            { name: 'Crossbody Bags' },
+            { name: 'Clutches' }
           ]
-        },
-        { 
-          name: 'Подэлемент 1.2',
-          children: [
-            { name: 'Подэлемент 1.2.1' },
-            { name: 'Подэлемент 1.2.2' }
-          ] }
+        }
       ]
-    },
-    {
-      name: 'Premium',
-      children: [
-        {
-          name: 'Подэлемент 1.1',
-          children: [
-            { name: 'Подэлемент 1.1.1' },
-            { name: 'Подэлемент 1.1.2' }
-          ]
-        },
-        { 
-          name: 'Подэлемент 1.2',
-          children: [
-            { name: 'Подэлемент 1.2.1' },
-            { name: 'Подэлемент 1.2.2' }
-          ] }
-      ]
-    },
-    {
-      name: 'Sport',
-      children: [
-        {
-          name: 'Подэлемент 1.1',
-          children: [
-            { name: 'Подэлемент 1.1.1' },
-            { name: 'Подэлемент 1.1.2' }
-          ]
-        },
-        { 
-          name: 'Подэлемент 1.2',
-          children: [
-            { name: 'Подэлемент 1.2.1' },
-            { name: 'Подэлемент 1.2.2' }
-          ] }
-      ]
-    },
+    }    
   ];
 
   return (

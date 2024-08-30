@@ -7,6 +7,8 @@
   cursor: pointer;
 }
 
+
+
 .level0 {
   font-size: 20px;
   display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
@@ -52,6 +54,5 @@
 }
 
 .level2:hover{
-  background-color: black;
-  color: white;
+  color: rgb(98, 98, 98);
 }

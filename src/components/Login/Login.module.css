@@ -1,0 +1,89 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mesto{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(91, 91, 91);
+}
+
+
+.tabs .active {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.loginForm, .registerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm label, .registerForm label {
+    margin-bottom: 10px;
+}
+
+.loginForm input, .registerForm input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.loginForm button, .registerForm button {
+    padding: 10px;
+    background-color: #5f605f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loginForm button:hover, .registerForm button:hover {
+    background-color: #434343;
+  }
