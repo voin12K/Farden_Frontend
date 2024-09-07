@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
 }
 
 .modalContent {
@@ -18,7 +20,24 @@
     max-width: 500px;
     width: 100%;
     position: relative;
+    transform: scale(0.7);
+    opacity: 0;
+    animation: scaleUp 0.3s forwards;
 }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 
 .closeButton {
     position: absolute;
@@ -82,8 +101,18 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
   }
   
   .loginForm button:hover, .registerForm button:hover {
     background-color: #434343;
+  }
+
+  .fogot{
+    text-decoration: none;
+    color: black;
+  }
+
+  .fogot:hover{
+    text-decoration: underline;
   }

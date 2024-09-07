@@ -3,7 +3,7 @@ import React from 'react';
 import { Navbar } from './components/Navbar/Navbar';
 import { MainVmeste } from './MainVmeste';
 import { Login } from './components/Login/Login';
-
+import { Addcloth } from './components/Addcloth/Addcloth';
 
 export const Home = () => {
 
@@ -16,6 +16,7 @@ export const Home = () => {
         <Routes>
             <Route path='/' element={<MainVmeste/>} />
             <Route path='Login' element={<Login/>} />
+            <Route path='Addcloth' element={<Addcloth/>} />
         </Routes>
         </>
     );

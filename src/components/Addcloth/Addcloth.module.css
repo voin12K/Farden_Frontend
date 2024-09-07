@@ -1,0 +1,54 @@
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.pad{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 250px;
+    gap: 10px;
+}
+
+
+.otstup{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+
+.miniphoto{
+    display: flex;
+    width: 132px;
+    height: 195px;
+    background-color: #D9D9D9;
+}
+
+.photo{
+    width: 547px;
+    height: 834px;
+    background-color: #D9D9D9;
+}
+
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.linia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.dale{
+    width: 400px;
+    height: 140px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

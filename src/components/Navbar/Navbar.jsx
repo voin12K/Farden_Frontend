@@ -14,7 +14,7 @@ export function Navbar() {
             <div className={style.wrapper}>
                 <div className={style.boxa}>
                     <div className={style.polo}>
-                        <label className={style.text}>FARDEN</label>
+                        <Link to="/" className={style.text}>FARDEN</Link>
                         <div className={style.buttonContainer}>
                             <Link to="#" className={style.hreff}>Women</Link>
                             <Link to="#" className={style.hreff}>Men</Link>

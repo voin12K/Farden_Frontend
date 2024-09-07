@@ -45,7 +45,7 @@ const ListItem = ({ item, level = 0 }) => {
   );
 };
 
-// Основной компонент для отображения всего списка
+
 export const OutfitList = () => {
   const data = [
     {
@@ -135,7 +135,7 @@ export const OutfitList = () => {
       ]
     },
     {
-      name: 'Sleepwear & Loungewear',
+      name: 'Sleepwear',
       children: [
         {
           name: 'Pajamas',

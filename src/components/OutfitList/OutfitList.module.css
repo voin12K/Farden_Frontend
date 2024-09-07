@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.container {
+  padding-top: 200px; /* Задайте отступ только сверху для всей группы */
+}
+
+
 .oreo {
   cursor: pointer;
 }
@@ -11,37 +16,36 @@
 
 .level0 {
   font-size: 20px;
-  display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
-  align-items: center; /* Выравниваем по центру по вертикали */
+  display: inline-flex;
+  align-items: center;
   border-radius: 8px;
-  padding: 4px; /* Добавляем дополнительное пространство справа при необходимости */
+  padding: 0 250px;
 }
 
 
 .level1 {
-  display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
-  align-items: center; /* Выравниваем по центру по вертикали */
+  display: inline-flex; 
+  align-items: center;
   border-radius: 5px;
-  padding: 4px; /* Добавляем дополнительное пространство справа при необходимости */
+  padding: 0 250px;
 }
 
 .level2 {
-  display: inline-flex; /* Используем inline-flex для подгонки ширины по содержимому */
-  align-items: center; /* Выравниваем по центру по вертикали */
+  display: inline-flex;
+  align-items: center;
   border-radius: 5px;
-  padding: 4px; /* Добавляем дополнительное пространство справа при необходимости */
+  padding: 0 250px;
 }
 
 
-/* Добавьте стили для других уровней по необходимости */
 .link {
   text-decoration: none;
   color: inherit;
 }
 
 .icon {
-  margin-left: 8px; /* Расстояние между текстом и иконкой */
-  vertical-align: middle; /* Выравнивание иконки по середине текста */
+  margin-left: 8px;
+  vertical-align: middle;
 }
 
 
